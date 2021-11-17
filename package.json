@@ -1,0 +1,36 @@
+{
+  "name": "bowsback",
+  "version": "1.0.0",
+  "description": "backend of bows app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bowsback"
+  },
+  "author": "crashmoz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "connect-ensure-login": "^0.1.1",
+    "connect-livereload": "^0.6.1",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pdf-to-printer": "^2.0.0",
+    "pdfkit": "^0.12.1",
+    "pusher": "^5.0.0",
+    "socket.io": "^4.1.3"
+  }
+}
